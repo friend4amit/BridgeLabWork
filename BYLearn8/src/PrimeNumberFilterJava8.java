@@ -9,6 +9,9 @@ public class PrimeNumberFilterJava8 {
         // Prime number 
         System.out.println(numbers.stream()
                              .filter(PrimeNumberFilterJava8::isPrime).collect(Collectors.toList()));
+        
+        
+        				
     }
 
     public static boolean isPrime(int number) {
