@@ -5,7 +5,7 @@ import java.util.function.Supplier;
 
 
 public class UserSupplier {
-	public static Supplier<UserContact> contactSupplierDefault = () -> {
+	public static Supplier<UserContact> userSupplierDefault = () -> {
 		return  new UserContact("Amit", "Tamrakar", "32 Church Street", "9090909090" );
     };
     
